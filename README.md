@@ -7,3 +7,5 @@ Next within the hangman function the letters of that word are stored in a set, t
 Checks are perfomed if the user input has already been guessed or if its not a letter.
 
 The while loops ends either whent the player has guessed the full word or the amount of chances falls to zero.
+
+Added code to allow the user to either play again or quit.

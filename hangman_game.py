@@ -46,7 +46,11 @@ def hangman():
 
 
 def main():
-    hangman()
+    while True:
+        hangman()
+        keep_going = input("Do yo want to play again? (y/n): ")
+        if keep_going.lower() != "y":
+            break
 
 
 # __name__
